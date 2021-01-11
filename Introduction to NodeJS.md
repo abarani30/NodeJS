@@ -74,3 +74,6 @@ An you can see below that your response now is printed on your browser:
 ![First Program](https://raw.githubusercontent.com/asattar30/NodeJS/main/Screenshots/FirstProgram.jpg)
 
 
+## How NodeJS handles the request? :heartpulse:
+
+NodeJS used asynchronous programming means it has a single thread contains of all the tasks or requests which are we need them tobe running on our server. The goal here is never wait or block the next request when you have sent the first or previous request (Non-Blocking Process), so send the next request and get the response of the previous one rather than waiting a specific request to be running. This lead us to a high performance and memory efficient.
